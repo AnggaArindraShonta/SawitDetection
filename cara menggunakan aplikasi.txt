@@ -1,0 +1,82 @@
+
+cara menggunakan aplikasi ;
+1. buat environment terlebih dahulu!
+	*note : untuk yang menggunakan anaconda 
+	bisa ikuti cara ini ;
+		1. buka anaconda prompt
+		
+		2. buat environment dengan ketik :
+		"conda create -n nama-env python=3.9.18"
+		3. masuk ke direktori project-sib, dengan
+		ketik cd "lokasi-penyimpanan"/project-sib/.
+		*note : untuk lebih mudahnya. buka file 
+		explorer. arahkan kursor ke bar location ( biasanya
+		disebelah kanan tombol panah "back" ) lalu klik
+		bar tersebut. klik kanan, lalu pilih copy path (atau
+		bisa tekan 'Ctrl + C' pada keyboard. pastekan
+		path ke cmd setelah mengetik huruf 'cd'.
+		
+		3. install dependensi dengan cara ketik
+		pip install -r requirements.txt. tunggu hingga
+		selesai. biasanya terdapat pengulangan direktori
+		pada cmd anaconda jika proses instalasi selesai.
+		
+2. setelah proses instalasi selesai. ketik "python app.py" 
+pada cmd.
+
+3. tunggu hingga muncul link menuju local server. jika ada window
+persetujuan untuk access network. pilih allow access.
+
+4. setelah link muncul copy link tersebut. dan pastekan ke
+bar url pada browser.
+
+5. kemudian klik tombol 'get started'
+
+6. klik tombol start untuk memulai webcam.
+
+7. refresh browser
+
+8. setelah tampil, tampilan webcam. arahkan objek untuk dideteksi.
+
+9. tunggu sistem mendeteksi objek tersebut. objek yang terdeteksi
+akan muncul tanda bidang kotak yang biasa disebut bounding box.
+diatas bounding box ada jenis atau nama objek yang terdeteksi
+oleh sistem.
+
+10. untuk menghentikan webcam. klik tombol stop. 
+
+11. refresh browser.
+
+12. untuk upload gambar bisa dengan mengklik tombol
+'choose file'
+
+13. pilih gambar yang mau dideteksi pada folder
+
+14. lalu klik open.
+
+15. gambar yang di open akan dimunculkan pada preview.
+
+16. akan muncul bounding box seperti di webcam untuk menampilkan
+jenis objek pada gambar. *notes : jika bounding box tidak muncul, 
+coba pilih gambar yang lebih jelas atau berkualitas tinggi. sistem
+hanya bisa mendeteksi minimal satu objek jika gambar kualitasnya
+rendah. namun jika gambar terlalu banyak objek. bisa jadi sistem
+akan bingung. jangan buat bingung suatu hal jika kamu tidak ingin
+merasa bingung suatu saat nanti.
+
+17. refresh untuk memulai dari nol.
+
+18. jangan lupa untuk mengetik 'Ctrl+C' pada keyboard di
+aplikasi anaconda prompt atau cmd untuk menghentikan
+aplikasi 'app.py'-nya.
+
+<sekian terima kasih>
+
+<mohon maaf jika ada salah kata ataupun salah ketik>
+
+<wassalamualaikum>
+
+
+
+		
+		
